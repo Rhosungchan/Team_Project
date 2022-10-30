@@ -4,17 +4,21 @@
     margin: 0 auto 0 auto;
     width: 100%;
     height: 100%;
-    background-color: blueviolet;
+    background-color: #F7F7F7;
+}
+.rsc-top-image{
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 .rsc-head-area,.rsc-foot-area{
-    /* width: 100%; */
     height: 150px;
-    background-color: greenyellow;
+    background-color: #FFFFFF
 }
 .rsc-body-area{
     width: 1000px;
     height: 1200px;
-    background-color:antiquewhite ;
+    background-color:#FFFFFF ;
     margin: 0 auto 0 auto;
 }
 .rsc-main-side{
@@ -22,9 +26,17 @@
     width: 1000px;
     min-width: 1000px;
 }
-
-/*=========[ 기본 뼈대 ]========= */
-
-
-
-
+/*=========[ 상단 영역 ]========= */
+.rsc-head-area{
+    display: flex;
+    flex-direction: column;
+}
+.rsc-body-TopArea{
+    width: 1000px;
+    height: 1200px;
+    background-color:#FFFFFF ;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
