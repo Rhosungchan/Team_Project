@@ -1,27 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <script src="https://kit.fontawesome.com/23979eaf06.js" crossorigin="anonymous"></script>
-
-    <style>
-        *{
+*{
     box-sizing: border-box;
 
     /* HTML 요소가 가지고 있는 고유한 padding, margin을 모두 없앰 */
     padding:0;
     margin:0;
 
-}
+    }
+
+    #header{
+        background-color: white;
+    }
 
 #header>div{
     width:1000px;
     height:110px;
     margin:auto; 
+
+  
 
     /* justify-content: center; */
     /* align-items: center; */
@@ -164,65 +159,29 @@
     margin-bottom: 5px;
 }
 
-#blank{
-   height: 2000px;
-   background-color: aqua;
+
+#header-top-btn{
+    position: fixed;
+    bottom: 0;
+    left:73%;
+
+    height:50px;
+    width: 50px;
+    background-color: rgba(81, 81, 81, 0.627);
+
+    
 }
 
+#header-top-btn>a{
+    text-decoration: none;
+    color:white;
 
-    </style>
-</head>
-<body>
-    <div id="header">
-        <div id="header-top">
-            <a href="#"><img src="/image/logo.png"></a>
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-             <!-- 우측 상단 로그인 예약조회 회원가입 -->
-            <!-- 헤더 오른쪽 상단 메뉴 -->
-            <div id="header-top-menu">
-                <a href="#">로그인</a>
-                |
-                <a href="/">예약조회</a>
-                |
-                <a href="/">회원가입</a>
-            </div>
-
-
-            <!-- media(내부 유튜브 링크)/instagram -->
-
-            <div id="media-menu">
-                <a href="#">
-                    MEDIA
-                    <i class="fa-brands fa-youtube"></i>
-                </a>
-
-                <a href="#">
-                    INSTAGRAM
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-            </div>
-        </div>
-
-    </div>
-
-    <div id="nav-area">
-        <ul>
-            <li><a href="#">HIDDEN CLIFF</a></li>
-            <li><a href="#">SPECIAL OFFER</a></li>
-            <li><a href="#">ROOMS</a></li>
-            <li><a href="#">DINING</a></li>
-            <li><a href="#">THE INFINITY POOL</a></li>
-            <li><a href="#">MEETING</a></li>
-            <li><a href="#">FACILITIES</a></li>
-            <li><a href="#">SPA</a></li>
-            <li>
-                <a href="#" id="book-btn"><i class="fa-regular fa-calendar-days"></i>
-                    예약하기</a> 
-            </li>
-            
-        </ul>
-        
-    </div>
-    
-</body>
-</html>
+#header-top-btn>a>i{
+    font-size: 30px;
+}

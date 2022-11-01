@@ -1,15 +1,21 @@
-afsdfasdf
 /*=========[ 기본 뼈대 ]========= */
 .reservation-lookUp-page{
     margin: 0 auto 0 auto;
-    width: 100%;
+    padding: 0;
     height: 100%;
+    width: 100%;
     background-color: #F7F7F7;
 }
 .rsc-top-image{
     width: 100%;
-    margin: 0;
-    padding: 0;
+    height: 185px;
+    background-image: url(/image/visual_pool.jpg);
+    background-attachment: fixed;
+    background-size: 1800px 400px;
+    background-repeat: no-repeat;
+    background-position: 50% 65px;
+    margin: 0 auto;
+    
 }
 .rsc-head-area,.rsc-foot-area{
     height: 150px;
@@ -20,11 +26,6 @@ afsdfasdf
     height: auto;
     background-color: #FFFFFF;
     margin: 0 auto 0 auto;
-}
-.rsc-main-side{
-    width: 80%;
-    width: 1000px;
-    min-width: 1000px;
 }
 
 /*=========[ 상단 영역 ]========= */
@@ -64,11 +65,9 @@ afsdfasdf
 }
 
 /*----[ 버튼 (메뉴 전체보기 / 다이닝이벤트) ]----*/
-
 .rsc-btn{
     display: flex;
     flex-direction: row;
-    width: 1000px;
 }
 
 #rsc-btn-menu, #rsc-btn-event{
@@ -92,7 +91,6 @@ afsdfasdf
     padding: 13px 20px;
 }
 
-
 /*----[ 1번, 2번 테이블 (인피니티 온수 풀, 이용안내) ]----*/
 td[id*="blank"]{
     height: 10px;
@@ -100,9 +98,7 @@ td[id*="blank"]{
     padding: 0;
     margin: 0;
 }
-#rsc-table-pool{
-    border-top: 3px solid #000000;
-}
+#rsc-table-pool{ border-top: 2px solid #000000; }
 #rsc-last-tr th,#rsc-last-tr td{
     margin: 0;
     padding: 0;
@@ -110,12 +106,10 @@ td[id*="blank"]{
 #rsc-table-var{
     margin: 0%;
     padding: 0;
-    border-top:3px solid #000000;
+    border-top:2px solid #000000;
     border-bottom:1px solid #767676;
 }
-#rsc-blank-1{
-    border-bottom: 1px solid #767676;
-}
+#rsc-blank-1{ border-bottom: 1px solid #767676; }
 #rsc-blank-2{
     border-top: 1px solid #767676;
 }
@@ -155,8 +149,8 @@ td[id*="blank"]{
 }
 #rsc-bottom-image-2{
     width: 50%;
-    padding: 0 0 0 30px;
-    line-height: 150%;
+    padding: 29px 0 29px 30px;
+    line-height: normal;
     color: #FFFFFF;
 }
 #image-right-text{

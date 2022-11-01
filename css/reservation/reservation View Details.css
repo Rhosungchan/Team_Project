@@ -8,8 +8,13 @@
 }
 .rsc-top-image{
     width: 100%;
-    margin: 0;
-    padding: 0;
+    height: 185px;
+    background-image: url(/image/visual_promotion.jpg);
+    background-attachment: fixed;
+    background-size: 1800px 400px;
+    background-repeat: no-repeat;
+    background-position: 50% 65px;
+    margin: 0 auto;
 }
 .rsc-head-area,.rsc-foot-area{
     height: 150px;
@@ -42,14 +47,6 @@
     justify-content: space-around;
 }
 
-
-/*----[ 페이지 리스트 조회 ]---- */
-.rsc-page-list>a, .rsc-page-list{
-    text-decoration: none;
-    color: #767676;
-    font-size: 13px;
-}
-
 /*----[ 페이지 제목 ]----*/
 .rsc-page-title >h1{
     margin: 15px 0 0 0;
@@ -69,7 +66,7 @@
 
 /*----[ 1번 기본 정보 테이블 ]---- */
 .rsc-basic-info{
-    border-top: 3px solid black;
+    border-top: 2px solid black;
     width: 960px;
     border-collapse: collapse;
     background-color: #FFFFFF;
@@ -89,7 +86,7 @@
 
 /*----[ 2번 객실 정보 테이블 ]----*/
 .rsc-room-info{
-    border-top: 3px solid black;
+    border-top: 2px solid black;
     width: 960px;
     border-collapse: collapse;
     margin-left: 10px ;
