@@ -47,6 +47,13 @@
     justify-content: space-around;
 }
 
+/*----[ 페이지 리스트 조회 ]---- */
+.rsc-page-list>a, .rsc-page-list{
+    text-decoration: none;
+    color: #767676;
+    font-size: 13px;
+}
+
 /*----[ 페이지 제목 ]----*/
 .rsc-page-title >h1{
     margin: 15px 0 0 0;

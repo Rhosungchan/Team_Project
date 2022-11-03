@@ -20,7 +20,8 @@
     height: 1200px;
     background-color:#FFFFFF ;
     border: 1px solid #c9c9c9;
-    margin: 0 auto 0 auto;
+    margin: 40px auto 60px auto;
+    padding: 40px 60px 60px 60px;
 }
 .rsc-main-side{
     width: 80%;
@@ -47,4 +48,19 @@
     margin: 15px 0 0 0;
     font-size: 33px;
     color: #000000;
+}
+
+/* 회원가입 프로세스 */
+#rsc-signUp-process{
+    display: flex;
+    flex-direction: row;
+}
+#rsc-signUp-process div{
+    text-align: left;
+    width: 33%;
+    height: 60px;
+    padding: 0 0 20px 20px;
+}
+#rsc-signUp-process div:first-child{
+    border-bottom: 3px solid #000000; 
 }

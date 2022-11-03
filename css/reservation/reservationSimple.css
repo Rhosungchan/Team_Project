@@ -119,19 +119,19 @@
     color: #767676;
 }
 #rsc-page-skip button{
-   background-color: #292526;
-   font-weight: bold;
-   font-size: 14px;
-   height: 38px;
-   width: 38px;
+    background-color: #292526;
+    font-weight: bold;
+    font-size: 14px;
+    height: 38px;
+    width: 38px;
 }
 #rsc-page-skip button a{
-   font-weight: bold;
-   font-size: 14px;
-   color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
 }
 #rsc-page-skip button a:hover{
-   font-weight: bold;
-   font-size: 14px;
-   color: red;
+    font-weight: bold;
+    font-size: 14px;
+    color: red;
 }
